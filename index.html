@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Load Calculator</title>
     <script type="text/javascript" src="calculator.js"></script>
+    <link rel="stylesheet"
+  href="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.css" />
     <link rel="stylesheet" href="app.css">
   </head>
   <body>
@@ -30,9 +32,19 @@
       <div>
         <h3>Monthly Payment<h3>
         <span id="monthly-payment"></span>
+        <h3>Total<h3>
+          <span id="total"></span>
       </div>
     </section>
-    <script src="app.js"></script>
+    <script 
+    src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.js"></script>
+  <script 
+    src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine-html.js"></script>
+  <script 
+    src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot0.js"></script>
+  <script 
+    src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot1.js"></script>
+    <script src="myapp.js"></script>
     <script src="app.test.js"></script>
   </body>
 </html>
